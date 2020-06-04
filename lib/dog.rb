@@ -11,5 +11,5 @@ class Dog
     @name
   end  
   
-fido = fido.Dog.  
+fido = fido.Dog.new("fido")  
 end  
