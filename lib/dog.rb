@@ -4,13 +4,13 @@ class Dog
   end 
   
   def name 
-    @fido 
+    @name 
   end 
   
   def name= (new_name)
-    @fido = new_name
+    @name = new_name
   end 
 end
 
 fido = Dog.new
-fido.name = fido
+fido.name = "fido"
